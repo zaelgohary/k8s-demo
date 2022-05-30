@@ -3,10 +3,10 @@ A demo for Kubernetes using mongoDB.
 
 
 ### create config files
-kubectl apply -f mongo-config.yaml 
-kubectl apply -f mongo-secret.yaml 
-kubectl apply -f mongo.yaml 
-kubectl apply -f webapp.yaml 
+- kubectl apply -f mongo-config.yaml 
+- kubectl apply -f mongo-secret.yaml 
+- kubectl apply -f mongo.yaml 
+- kubectl apply -f webapp.yaml 
 
 ### verify all components creation
 kubectl get all
