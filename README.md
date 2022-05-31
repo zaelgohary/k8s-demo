@@ -1,6 +1,10 @@
 # k8s-demo
 A demo for Kubernetes using mongoDB.
 
+### start minikube with docker as adirve
+```
+minikube start —driver docker 
+```
 
 ### create config files
 ```
